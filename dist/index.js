@@ -1,4 +1,4 @@
-"use strict";var v=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var u=v(function(p,o){"use strict";var g=require("@stdlib/utils-keys-in"),f=require("@stdlib/assert-has-property");function m(){var e,r,i,a,s,n,t;if(e=arguments.length,e<2)throw new Error("insufficient arguments. Must provide at least two objects.");for(r=g(arguments[0]),s=r.length,n=1;n<e;n++){for(i=arguments[n],a=0,t=0;t<s;t++)f(i,r[t])&&(r[a]=r[t],a+=1);s=a}return r.length=s,r}o.exports=m});var c=u();module.exports=c;
+"use strict";var v=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(a){throw r=0,a}}};var u=v(function(p,o){"use strict";var g=require("@stdlib/utils-keys-in"),f=require("@stdlib/assert-has-property");function m(){var e,r,a,s,n,i,t;if(e=arguments.length,e<2)throw new Error("insufficient arguments. Must provide at least two objects.");for(r=g(arguments[0]),n=r.length,i=1;i<e;i++){for(a=arguments[i],s=0,t=0;t<n;t++)f(a,r[t])&&(r[s]=r[t],s+=1);n=s}return r.length=n,r}o.exports=m});var c=u();module.exports=c;
 /**
 * @license Apache-2.0
 *
